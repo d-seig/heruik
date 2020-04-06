@@ -1,15 +1,14 @@
 const Discord = require('discord.js');
+
 const client = new Discord.Client();
 
-client.on('ready', () => {
- console.log('I am ready!');
+var prefix = '!'
+ 
+ client.on('message', message => {
+    if(message.author === client.user) return;
+    if(message.content.startsWith(prefix + 'help')) {
+        message.channel.sendMessage('Привет я БОТ!');
+     }
  });
 
-client.on('message', message => {
- if (message.content === 'ping') {
-  message.reply('pong');
-  }
- });
-
-// THIS MUST BE THIS WAY
-client.login(process.env.BOT_TOKEN);
+client.login('Njk2NDI1ODEzMjQyODA2Mzg2.Xotc8w.FhHghD_JCk0zPc5dx2NiW55bpwE')
