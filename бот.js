@@ -11,4 +11,4 @@ var prefix = '!'
      }
  });
 
-client.login('Njk2NDI1ODEzMjQyODA2Mzg2.Xottag.QwWPVJlyvxPO-V-_pNJYgQsitxc')
+client.login('Njk2NDI1ODEzMjQyODA2Mzg2.Xottag.QwWPVJlyvxPO-V-_pNJYgQsitxc');
