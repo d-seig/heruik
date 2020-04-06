@@ -11,5 +11,4 @@ var prefix = '!'
      }
  });
 
-client.login(process.env.BOT_TOKEN);
 client.login('Njk2NDI1ODEzMjQyODA2Mzg2.Xottag.QwWPVJlyvxPO-V-_pNJYgQsitxc')
