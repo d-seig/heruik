@@ -11,4 +11,4 @@ var prefix = '!'
      }
  });
 
-client.login('BOT_TOKEN')
+client.login('Njk2NDI1ODEzMjQyODA2Mzg2.Xotc8w.FhHghD_JCk0zPc5dx2NiW55bpwE')
